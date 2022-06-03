@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/asset/fond.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  position: relative;
+}
+h1 {
+  font-size: 45px;
+  text-shadow: 2px 2px 2px #ffc400;
+}
+h2 {
+  color: grey;
+  font-size: 15px;
+}
+/* Navigation menu */
+.navbar {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+/* navigation link */
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  font-family: inherit;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+.navbar a:visited {
+  color: white;
+}
+/* subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+/* subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+/* background color to navigation link on hover */
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+  background-color: #ffc400;
+}
+/* style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #ffc400;
+  width: 100%;
+  z-index: 1;
+}
+/* style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+/* add background color on hover */
+.subnav-content a:hover {
+  background-color: grey;
+  color: white;
+}
+/* when you move mouse over subnav content open it */
+.subnav:hover .subnav-content {
+  display: block;
+  border-radius: 5px;
+}
+/* container */
+.container {
+  width: 960px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+.jours {
+  position: relative;
+  text-align: left;
+  width: 287px;
+  height: 475px;
+  border-radius: 10px;
+  margin-top: 35px;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.1s;
+  b-webkit-box-shadow: 2px 2px 5px 0px #000000;
+  box-shadow: 2px 2px 5px 0px #000000;
+}
+.jours:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  position: absolute;
+  bottom: 30px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 30px;
+  padding-right: 10px;
+  font-weight: 900;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+h4 {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 8px;
+}
+h5 {
+  color: white;
+  font-size: 18px;
+  margin-top: 8px;
+}
+h6 {
+  color: #ffc400;
+  text-shadow: 0px 1px 2px rgb(0 0 0 / 30%), 0px 1px 4px rgb(0 0 0 / 20%),
+    0px 1px 8px rgb(0 0 0 / 10%);
+  margin-top: 8px;
+  font-weight: 900;
+  font-size: 15px;
+}
+p {
+  margin-top: 15px;
+  color: white;
+  text-shadow: none;
+  font-weight: 400;
+}
+.images {
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  border-radius: 10px;
+}
+
+#imgjour1 {
+  background-image: url(/asset/imgjour1.jpg);
+}
+#imgjour2 {
+  background-image: url(/asset/imgjour2.jpg);
+}
+#imgjour3 {
+  background-image: url(/asset/imgjour3.jpg);
+}
+#imgjour4 {
+  background-image: url(/asset/imgjour4.jpg);
+}
+#imgjour5 {
+  background-image: url(/asset/imgjour5.jpg);
+}
+#imgjour6 {
+  background-image: url(/asset/imgjour6.jpg);
+}
+#imgjour7 {
+  background-image: url(/asset/imgjour7.jpg);
+}
+#imgjour8 {
+  background-image: url(/asset/imgjour8.jpg);
+}
+#imgjour9 {
+  background-image: url(/asset/imgjour9.jpg);
+}
+footer {
+  padding: 70px 0 90px;
+  position: relative;
+}
+footer:before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.082);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+  min-width: 300px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+footer a:hover {
+  border-color: #ffc400;
+  color: #ffc400;
+}
+footer a {
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+a,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
