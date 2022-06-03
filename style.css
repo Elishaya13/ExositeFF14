@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@ body {
   background-image: url(/asset/fond.png);
   background-repeat: no-repeat;
   text-align: center;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   position: relative;
 }
 h1 {
@@ -123,7 +123,7 @@ h2 {
 .text {
   position: absolute;
   bottom: 30px;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   margin-left: 30px;
   padding-right: 10px;
   font-weight: 900;
@@ -165,38 +165,38 @@ p {
 }
 
 #imgjour1 {
-  background-image: url(/asset/imgjour1.jpg);
+  background-image: url(asset/imgjour1.jpg);
 }
 #imgjour2 {
-  background-image: url(/asset/imgjour2.jpg);
+  background-image: url(asset/imgjour2.jpg);
 }
 #imgjour3 {
-  background-image: url(/asset/imgjour3.jpg);
+  background-image: url(asset/imgjour3.jpg);
 }
 #imgjour4 {
-  background-image: url(/asset/imgjour4.jpg);
+  background-image: url(asset/imgjour4.jpg);
 }
 #imgjour5 {
-  background-image: url(/asset/imgjour5.jpg);
+  background-image: url(asset/imgjour5.jpg);
 }
 #imgjour6 {
-  background-image: url(/asset/imgjour6.jpg);
+  background-image: url(asset/imgjour6.jpg);
 }
 #imgjour7 {
-  background-image: url(/asset/imgjour7.jpg);
+  background-image: url(asset/imgjour7.jpg);
 }
 #imgjour8 {
-  background-image: url(/asset/imgjour8.jpg);
+  background-image: url(asset/imgjour8.jpg);
 }
 #imgjour9 {
-  background-image: url(/asset/imgjour9.jpg);
+  background-image: url(asset/imgjour9.jpg);
 }
 footer {
   padding: 70px 0 90px;
   position: relative;
 }
 footer:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 90%;
   height: 1px;
