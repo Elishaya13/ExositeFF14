@@ -35,7 +35,7 @@ h2 {
 /* navigation link */
 
 .navbar a {
-  float: left;
+  /* float: left; */
   font-size: 16px;
   color: white;
   font-family: inherit;
@@ -113,7 +113,7 @@ h2 {
   margin-top: 35px;
   background-color: rgba(255, 255, 255, 0);
   transition: 0.1s;
-  b-webkit-box-shadow: 2px 2px 5px 0px #000000;
+  /* b-webkit-box-shadow: 2px 2px 5px 0px #000000; */
   box-shadow: 2px 2px 5px 0px #000000;
 }
 .jours:hover {
