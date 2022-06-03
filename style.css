@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(/asset/fond.png);
+  background-image: url(asset/fond.png);
   background-repeat: no-repeat;
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
